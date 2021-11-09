@@ -7,13 +7,13 @@ int main()
     int panjang, lebar;
 
     // PROGRAM
-    cout<<"Masukan nilai panjang = ";
+    cout<<"Input the tall value = ";
     cin>>panjang;
 
-    cout<<endl<<"Masukan nilai lebar = ";
+    cout<<endl<<"Input the widht value = ";
     cin>>lebar;
 
     cout<<endl;
-    cout<<"Luas persegi adalah = "<<panjang * lebar;
+    cout<<"Square volume is = "<<panjang * lebar;
     return 0;
 }
