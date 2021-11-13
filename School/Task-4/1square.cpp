@@ -4,16 +4,16 @@ using namespace std;
 
 int main()
 {
-    int panjang, lebar;
+    int height, width;
 
     // PROGRAM
-    cout<<"Input the tall value = ";
-    cin>>panjang;
+    cout<<"Input the height value = ";
+    cin>>height;
 
     cout<<endl<<"Input the widht value = ";
-    cin>>lebar;
+    cin>>width;
 
     cout<<endl;
-    cout<<"Square volume is = "<<panjang * lebar;
+    cout<<"Square volume is = "<<height * width;
     return 0;
 }
