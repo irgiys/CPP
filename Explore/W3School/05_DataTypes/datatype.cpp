@@ -9,7 +9,7 @@ int main()
   double myDouble = 22.33; // Floating point number
   char initials = 'I'; // Character 
   bool myBool = true; // Boolean 
-  string myString = "Irgi"; // String
+  string myString = "Noridc"; // String
 
   cout << myNum << endl << myFloat << endl << myDouble << endl << initials << endl << myBool << endl << myString;
 
