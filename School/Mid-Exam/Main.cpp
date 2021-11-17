@@ -18,11 +18,11 @@ int main()
   cout << endl << "Masukan uang kemahasiswaan : "; cin >>  mhs1.uangKemahasiswaan;
 
   mhs1.totalBiaya = mhs1.uangKemahasiswaan + mhs1.cicilan + mhs1.uangPembangunan;
-  cout << endl  << "==================================";
+  cout << endl << "==================================";
   cout << endl << "Nama Mahasiswa : " << mhs1.nama;
   cout << endl << "Nim Mahasiswa : " << mhs1.nim;
   cout << endl << "Prodi Mahsiswa : " << mhs1.prodi;
   cout << endl << "Total biaya yang telah dibayar : " << mhs1.totalBiaya; 
-  
+
   return 0;   
 }
