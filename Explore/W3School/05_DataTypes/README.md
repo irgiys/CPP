@@ -51,6 +51,12 @@ A floating point number can also be a scientific number with "e" to indicate the
 ```c++
 float fl = 35E4;
 double dl = 12E4;
-cout << fl;
-cout << dl;
+cout << fl; // 350000
+cout << dl; //120000
 ```
+
+## Boolean Data Types
+
+A boolean data types is declare with the `bool` keyword can only take the values `true` or `false`. When the value is returned, `true` = 1 and `false` = 0.
+
+> Boolean values are mostly used for conditional testing.
