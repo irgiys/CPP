@@ -60,3 +60,27 @@ cout << dl; //120000
 A boolean data types is declare with the `bool` keyword can only take the values `true` or `false`. When the value is returned, `true` = 1 and `false` = 0.
 
 > Boolean values are mostly used for conditional testing.
+
+## Character Data Types
+
+A `char` data types is used to store a **single** character. The character must be surrounded by single quotes, like 'A' or 'p' :
+
+```c++
+char thisChar = 'P';
+char thisAlsoChar = 'p';
+```
+
+However a character can store more than a single character :
+
+```c++
+char yourname[12] = "oabd ae";
+```
+
+As you can see above the character doesn't surrounded by single quotes but sorrounded with double quotes "oabd ae".
+Alternatively, you can use ASCII values to display certain character :
+
+```c++
+char a = 65, b = 56, c = 75;
+```
+
+A list of all ASCII values can be found in [ASCII Table Reference.](https://www.w3schools.com/charsets/ref_html_ascii.asp)
