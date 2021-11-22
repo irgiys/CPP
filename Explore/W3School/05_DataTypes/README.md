@@ -84,3 +84,18 @@ char a = 65, b = 56, c = 75;
 ```
 
 A list of all ASCII values can be found in [ASCII Table Reference.](https://www.w3schools.com/charsets/ref_html_ascii.asp)
+
+## String
+
+The string data type is used to store of character (text). This is not built in type, but it behaves like one in it most basic usage. String values must be surrounded with double quotes:
+
+```c++
+string yourName = "Aya";
+cout << yourName;
+```
+
+To use string, you must include an additional file header in the source code, the `<string>` library:
+
+```c++
+#include <string>
+```
