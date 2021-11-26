@@ -81,3 +81,12 @@ A list of all comparison operators :
 | < | Less than | x < y |
 | >= | Greater than or equal to | x >= y |
 | <= | Less than or equal to | x <= y |
+
+## Logical Operators
+
+Logical operators are used to determine the logic between variables or values:
+| Operator | Name | Description | Example |
+| --- | --- | --- | --- |
+| && | AND | Return true if both statement are true | x < 5 && x < 10 |
+| \|\| | OR | Return true if one of the statement is true | x < 5 \|\| x < 3 |
+| ! | NOT | Reverse the result, return false if the result is true | !(x < 4 && x < 10) |
