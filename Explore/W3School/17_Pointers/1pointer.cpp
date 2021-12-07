@@ -15,7 +15,7 @@ int main()
   cout << "size of int " << sizeof(int) << endl; 
   cout << sizeof(&a);
   cout << " size of a pointer " << sizeof(aPtr);
+  
   return 0;
-
 }
 
