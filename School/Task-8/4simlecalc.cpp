@@ -1,32 +1,34 @@
 #include <iostream>
 using namespace std;
 
-int Calc(int x, int y, char op){
+int main(){
+  float bil1, bil2;
+  char op;
+
+  cout << "=====================";
+  cout << endl << "Inputkan bilangan 1 = "; cin >> bil1;
+  cout << endl << "Inputkan bilangan 2 = "; cin >> bil2;
+  cout << endl << "Inputkan operasi aritmatikanya = ";
+  cout << endl << "[+] Penjumlahan";
+  cout << endl << "[-] Pengurangan";
+  cout << endl << "[*] Perkalian";
+  cout << endl << "[/] Pembagian";
+  cout << endl << " = "; cin >> op;
+  cout << endl;
   switch (op)
   {
-  case '*':
-    return x * y;
-  case '+':
-    return x + y;
-  case '-':
-    return x - y;
-  case '/':
-    return x / y;
+  case '+': cout << "Hasil Penjumlahannya adalah = " << bil1 + bil2; 
+    break;
+  case '-': cout << "Hasil Pengurangannya adalah = " << bil1 - bil2;
+    break;
+  case '*': cout << "Hasil Perkaliannya adalah = " << bil1 * bil2;
+    break;
+  case '/': cout << "Hasil Pembagiannya adalah = " << bil1 / bil2;
+    break;
   default:
-    cout << "Masukan operan atau operator dengan benar";
+    cout << "Maaf inputan salah";
     break;
   }
-  return 0;
-}
-int main(){
-  int operand1;
-  int operand2;
-  char op;
-  cout << "Masukan angka ke 1 = "; cin >> operand1;
-  cout << "Masukan angka ke 2 = "; cin >> operand2;
-  cout << "Masukan operator"<< endl << "[*]Kali, [/]Bagi, [+]Tambah, [-]Kurang = ";
-  cin >> op;
-  cout << endl << "Hasil dari operasi diatas adalah = " << Calc(operand1, operand2, op);
-  cout << endl;
+  cout << endl << "=====================" <<  endl;
   return 0;
 }
