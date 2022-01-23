@@ -4,7 +4,7 @@ using namespace std;
 int main(){
   int num, min;
   cout << "Inputkan Nomor: "; cin >> num;
-  num = min;
+  min = num;
   while (num != 999){
     cout << "Inputkan Nomor: "; cin >> num;
     if(num < min){
