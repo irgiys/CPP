@@ -1,3 +1,4 @@
+// No 1 Program untuk pengurangan matrik 3x3
 #include <iostream>
 using namespace std;
 
@@ -6,7 +7,7 @@ const int kolom = 3;
 int main(){
   int A[baris][kolom], B[baris][kolom], C[baris][kolom];
   int q, i ,j;
-  for (q = 0; q < 5; q++){
+  for (q = 0; q < 6; q++){
     for (i = 0; i < baris; i++){
       for (j = 0; j < kolom; j++){
         switch (q){
@@ -27,7 +28,7 @@ int main(){
           i == 0 && j == 0 && cout << "Matrik A = " << endl;
           cout << "|\t" << A[i][j] << "\t|";
           j + 1 == baris && cout << endl;
-        break;
+          break;
         case 4:
           i == 0 && j == 0 && cout << "Matrik B = " << endl;
           cout << "|\t" << B[i][j] << "\t|";

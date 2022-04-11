@@ -1,3 +1,4 @@
+// No 2 Elemen terbesar matrik
 #include <iostream>
 using namespace std;
 
@@ -22,7 +23,7 @@ void buatCariMax(int Nbaris, int Nkolom){
       }
     }
   }
-  cout << endl << "Elemen max dari Matri A = " << max;  
+  cout << endl << "Elemen max dari Matrik A = " << max;  
 }
 int main(){
   int baris, kolom;
