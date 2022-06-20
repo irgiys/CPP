@@ -18,11 +18,12 @@ int main(){
   cout << "Inputkan nilai yang dicari : ";
   cin >> x;
   seqSearch1(A,n,x,&found);
-  if (found) {
-    cout << x <<  " ditemukan";
-  } else {
-    cout << x << " tidak ditemukan";
+  if (!found){
+    cout << "Tidak ditemukan";
+    cout << endl;
+    return 0;
   }
+  cout << "Ditemukan";
   cout << endl;
   return 0;
 }
@@ -39,12 +40,6 @@ void bacaArray(arrayInt A, int n){
 void seqSearch1(arrayInt A, int n, int x, bool *ketemu){
   // DEKLARASI
   int i = 0;
-  while (i < n && A[i] != x ){
-    i = i+1;
-  }
-  if (A[i] == x){
-    *ketemu = true;
-  }else{
-    *ketemu = false;
-  }
+  while (i < n && A[i] != x ) i++; 
+  A[i] == x ? *ketemu = true : *ketemu = false;
 }
