@@ -50,6 +50,7 @@ int main() {
   cout << "=================PROGRAM BIODATA PEGAWAI=================" << endl;
   cout << endl << "Inputkan NIP Pegawai\t: ";
   cin >> BIO.NIP;
+  // cin clear
   cin.ignore();
   cout << "Inputkan Nama\t\t: ";
   getline(cin, BIO.nama);
